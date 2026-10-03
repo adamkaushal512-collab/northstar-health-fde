@@ -14,5 +14,37 @@
     "service_date": "2026-08-20",
     "evidence_type": "clinical_exam",
     "summary": "Synthetic exam record documents persistent lumbar symptoms and examination findings."
+  },
+  {
+    "record_id": "NOTE-201",
+    "patient_reference": "SYN-PAT-002",
+    "source_system": "synthetic-ehr",
+    "service_date": "2026-08-04",
+    "evidence_type": "physical_therapy",
+    "summary": "Synthetic record documents a completed course of physical therapy."
+  },
+  {
+    "record_id": "NOTE-202",
+    "patient_reference": "SYN-PAT-002",
+    "source_system": "synthetic-ehr",
+    "service_date": "2026-08-07",
+    "evidence_type": "medication_history",
+    "summary": "Synthetic record documents relevant conservative medication treatment."
+  },
+  {
+    "record_id": "NOTE-203",
+    "patient_reference": "SYN-PAT-002",
+    "source_system": "synthetic-ehr",
+    "service_date": "2026-08-12",
+    "evidence_type": "clinical_exam",
+    "summary": "Synthetic record documents relevant lumbar clinical examination findings."
+  },
+  {
+    "record_id": "NOTE-301",
+    "patient_reference": "SYN-PAT-003",
+    "source_system": "synthetic-ehr",
+    "service_date": "2026-08-14",
+    "evidence_type": "unrelated_history",
+    "summary": "Synthetic unrelated history that should not satisfy payer requirements."
   }
 ]

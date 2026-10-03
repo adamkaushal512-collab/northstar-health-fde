@@ -1,0 +1,32 @@
+[
+  {
+    "evaluation_id": "EVAL-001",
+    "authorization_case_id": "AUTH-1001",
+    "scenario": "partial evidence",
+    "expected_requirement_statuses": {
+      "REQ-PT": "evidence_found",
+      "REQ-MED": "evidence_not_found",
+      "REQ-EXAM": "evidence_found"
+    }
+  },
+  {
+    "evaluation_id": "EVAL-002",
+    "authorization_case_id": "AUTH-1002",
+    "scenario": "complete evidence",
+    "expected_requirement_statuses": {
+      "REQ-PT": "evidence_found",
+      "REQ-MED": "evidence_found",
+      "REQ-EXAM": "evidence_found"
+    }
+  },
+  {
+    "evaluation_id": "EVAL-003",
+    "authorization_case_id": "AUTH-1003",
+    "scenario": "no matching evidence",
+    "expected_requirement_statuses": {
+      "REQ-PT": "evidence_not_found",
+      "REQ-MED": "evidence_not_found",
+      "REQ-EXAM": "evidence_not_found"
+    }
+  }
+]
