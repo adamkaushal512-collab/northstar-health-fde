@@ -5,5 +5,19 @@
     "procedure": "MRI-LUMBAR",
     "payer": "SYNTHETIC-PAYER-A",
     "status": "evidence_investigation"
+  },
+  {
+    "authorization_case_id": "AUTH-1002",
+    "patient_reference": "SYN-PAT-002",
+    "procedure": "MRI-LUMBAR",
+    "payer": "SYNTHETIC-PAYER-A",
+    "status": "evidence_investigation"
+  },
+  {
+    "authorization_case_id": "AUTH-1003",
+    "patient_reference": "SYN-PAT-003",
+    "procedure": "MRI-LUMBAR",
+    "payer": "SYNTHETIC-PAYER-A",
+    "status": "evidence_investigation"
   }
 ]
