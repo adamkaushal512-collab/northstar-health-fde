@@ -1,0 +1,23 @@
+[
+  {
+    "requirement_id": "REQ-PT",
+    "payer": "SYNTHETIC-PAYER-A",
+    "procedure": "MRI-LUMBAR",
+    "evidence_type": "physical_therapy",
+    "description": "Document prior conservative physical therapy."
+  },
+  {
+    "requirement_id": "REQ-MED",
+    "payer": "SYNTHETIC-PAYER-A",
+    "procedure": "MRI-LUMBAR",
+    "evidence_type": "medication_history",
+    "description": "Document relevant conservative medication treatment."
+  },
+  {
+    "requirement_id": "REQ-EXAM",
+    "payer": "SYNTHETIC-PAYER-A",
+    "procedure": "MRI-LUMBAR",
+    "evidence_type": "clinical_exam",
+    "description": "Document relevant clinical examination findings."
+  }
+]
