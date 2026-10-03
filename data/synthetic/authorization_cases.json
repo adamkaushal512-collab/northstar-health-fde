@@ -1,0 +1,9 @@
+[
+  {
+    "authorization_case_id": "AUTH-1001",
+    "patient_reference": "SYN-PAT-001",
+    "procedure": "MRI-LUMBAR",
+    "payer": "SYNTHETIC-PAYER-A",
+    "status": "evidence_investigation"
+  }
+]
