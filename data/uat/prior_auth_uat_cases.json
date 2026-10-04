@@ -1,0 +1,27 @@
+[
+  {
+    "scenario_id": "UAT-001",
+    "name": "Complete evidence remains human-reviewed",
+    "expected_human_review_required": true,
+    "expected_disposition": "continue_review",
+    "required_reason_codes": []
+  },
+  {
+    "scenario_id": "UAT-002",
+    "name": "Missing evidence escalates to specialist",
+    "expected_human_review_required": true,
+    "expected_disposition": "human_review",
+    "required_reason_codes": [
+      "insufficient_evidence"
+    ]
+  },
+  {
+    "scenario_id": "UAT-003",
+    "name": "Source outage fails to manual workflow",
+    "expected_human_review_required": true,
+    "expected_disposition": "manual_workflow",
+    "required_reason_codes": [
+      "source_unavailable"
+    ]
+  }
+]

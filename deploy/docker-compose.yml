@@ -1,0 +1,11 @@
+services:
+  northstar-health:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    environment:
+      NORTHSTAR_ENV: local
+      NORTHSTAR_DEPENDENCY_TIMEOUT_SECONDS: "3"
+      NORTHSTAR_DEPENDENCY_MAX_RETRIES: "2"
+    ports:
+      - "8000:8000"
