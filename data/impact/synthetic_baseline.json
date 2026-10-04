@@ -1,0 +1,17 @@
+{
+  "before": {
+    "cases": 1000,
+    "avg_minutes": 42.0,
+    "avg_systems_searched": 4.8,
+    "escalation_rate": 0.31,
+    "repeat_contact_rate": 0.22
+  },
+  "after": {
+    "cases": 1000,
+    "avg_minutes": 24.0,
+    "avg_systems_searched": 2.1,
+    "escalation_rate": 0.2,
+    "repeat_contact_rate": 0.14
+  },
+  "note": "Synthetic demonstration data only; not production outcomes."
+}
